@@ -165,7 +165,7 @@ color: rgb(198, 201, 204);
 
 .home {
   /* background-color: rgb(46, 82, 112); */
-  background: url(../SamuelWebsite/korea\ photo.jpg), url(../SamuelWebsite/bluepaint.jpg),
+  background: url(../korea\ photo.jpg), url(../bluepaint.jpg),
   linear-gradient(rgb(57, 71, 82), rgb(21, 18, 53));
   padding: 8rem 0vh;
   padding-top: 45vh;
