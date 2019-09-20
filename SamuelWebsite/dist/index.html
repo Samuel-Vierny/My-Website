@@ -6,15 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Samuel Vierny</title>
   <link rel="icon" type="image/png" href="https://img.icons8.com/dotty/80/000000/active-state.png" />
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/simplelightbox.min.css">
  <style>
   </style>
 <!-- *********************************************************************************-->
 </head>
 <body>
-  <header> 
+  <name> 
     <h1 class="name">Samuel Vierny</h1>
-  </header>
+  </name>
   <nav>
     <ul id="navbar" class="nav-small" class="nav-big">
       <li><a id="target-home" href="#home">Home</a></li>
@@ -26,7 +27,7 @@
 <main>
   <section class="home" id="home">
     <div class="container">
-      <h1 class="title"><!--There are only two states of being that appease conscious rationality:--> "One of the most beautiful qualities of true friendship is to understand and to be understood" - Seneca</h1> <h2 class="title"><sec><strong>and that is why VS code is so great</strong></sec></h2>
+      <h1 class="title"><!--There are only two states of being that appease conscious rationality:--> "One of the most beautiful qualities of true friendship is to understand and to be understood" - Seneca</h1> <h2 class="title"><sec><strong>this is why</strong></sec></h2>
     </div>
   </section>
   <!-- *********************************************************************************-->
@@ -70,42 +71,42 @@
         <h1 class="underline">Photography</h1>
         <!--Picture 1-->
         <figure class="port-item">
-          <img src="korea photo.jpg" alt="portfolio item">
+          <img src="img/korea photo.jpg" alt="portfolio item">
             <figcaption class="port-desc">
               <p>Korea 2018</p>
               <a href="" class="button button-accent button-small">See More</a>
             </figcaption>
         </figure>
         <figure class="port-item">
-          <img src="korea photo (1).jpg" alt="portfolio item">
+          <img src="img/korea photo (1).jpg" alt="portfolio item">
             <figcaption class="port-desc">
               <p>Korea 2018</p>
               <a href="" class="button button-accent button-small">See More</a>
             </figcaption>
         </figure>
         <figure class="port-item">
-          <img src="korea photo (4).jpg" alt="portfolio item">
+          <img src="img/korea photo (4).jpg" alt="portfolio item">
             <figcaption class="port-desc">
               <p>Korea 2018</p>
               <a href="" class="button button-accent button-small">See More</a>
             </figcaption>
         </figure>
         <figure class="port-item">
-          <img src="korea photo (3).jpg" alt="portfolio item">
+          <img src="img/korea photo (3).jpg" alt="portfolio item">
             <figcaption class="port-desc">
               <p>Korea 2018</p>
               <a href="" class="button button-accent button-small">See More</a>
             </figcaption>
         </figure>
         <figure class="port-item">
-          <img src="korea photo (10).jpg" alt="portfolio item">
+          <img src="img/korea photo (10).jpg" alt="portfolio item">
             <figcaption class="port-desc">
               <p>Korea 2018</p>
               <a href="" class="button button-accent button-small">See More</a>
             </figcaption>
         </figure>
         <figure class="port-item">
-          <img src="korea photo (13).jpg" alt="portfolio item">
+          <img src="img/korea photo (13).jpg" alt="portfolio item">
             <figcaption class="port-desc">
               <p>Korea 2018</p>
               <a href="" class="button button-accent button-small">See More</a>
@@ -142,6 +143,12 @@
 </main>
 <!-- *********************************************************************************-->
 </body>
-<script src="script.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/simple-lightbox.min.js"></script>
+<script>
+$(function() {
+  const $gallery = $('.gallery a').simpleLightbox();
+})
 </script>
+<script src="js/script.js"></script>
 </html>
