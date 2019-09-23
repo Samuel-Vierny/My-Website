@@ -440,7 +440,7 @@ footer {
 /*Responsive*
 ***************************************************/
 
- @media (max-width: 1100px) {
+ @media (max-width: 1270px) {
   .home {
  width: 100%;
  display: block;
@@ -467,6 +467,7 @@ footer {
     padding: 3rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    padding-bottom: 6rem;
   }
 
   #travel-box-sizing {
@@ -494,20 +495,24 @@ footer {
  }
 
  
-@media (max-width: 1500px) {  
+@media (max-width: 1580px) {  
   
   .spotify {
     display: block;
     clear: both;
-    position: left;
+    position: relative;
     margin: 0;
     right: 9rem;
+    top: -6rem;
   }
 
   .spotify-text {
     clear: both;
     text-align: center;
-    position: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 30rem;
   }
 
   .soundcloud-text {
