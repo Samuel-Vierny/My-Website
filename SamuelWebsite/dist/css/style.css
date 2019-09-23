@@ -100,33 +100,27 @@ margin-top: 1rem;
 
 /*navigation bar*
 ***************************************************/
-name {
-  margin: 0;
-  bottom: 0rem;
-  padding: 0;
 
-}
-
-name .name {
+.name {
   position: absolute;
   display: block;
-  z-index: 2;
-  bottom: 1rem;
+  bottom: 2rem;
+  z-index: 123123123;
   text-align: center;
   right: 0rem;
   left: 0rem;
   color: blanchedalmond;
   font-family: 'Open Sans Condensed';
-  background: red;
   margin: 0;
   padding: 0;
+  content: "";
 }
 
 nav ul {
   position: fixed;
   z-index: 999;
   list-style: none;
-  top: 0;
+  top: 1rem;
   max-height: 3.8rem;
   border: groove #4d525a2d;
   border-width: .1rem;
