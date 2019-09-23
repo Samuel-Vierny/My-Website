@@ -177,11 +177,12 @@ color: rgb(198, 201, 204);
   background-blend-mode: overlay;
   width: 100%; /*118.95rem; change this maybe!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
   max-width: 118.95rem;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 0;
+  overflow: hidden;
 }
 
 
@@ -360,6 +361,18 @@ figure {
   align-content: center;
 
 }
+.port-item p {
+  font-weight: 1rem;
+  padding: 1rem;
+  color:rgb(224, 236, 241);
+}
+.port-item a {
+  color:rgb(224, 236, 241);
+  font-weight: normal;
+  background:rgba(5,5,5, .05);
+  padding: 1rem;
+  font-size: 1.2rem;
+}
 
 .port-item:hover .port-desc {
  transform: translateY(0%);
@@ -375,7 +388,7 @@ figure {
 .port-desc {
   position: absolute;
   z-index: 100;
-  bottom: 4rem;
+  bottom: 3rem;
   left: 1rem;
   right: 1rem;
   color: white;
