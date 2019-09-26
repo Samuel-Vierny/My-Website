@@ -215,7 +215,8 @@ color: rgb(198, 201, 204);
   width: 33%;
   height: 60rem;
   max-width: 33%;
-  max-height: 60rem;
+  max-height: 1120rem;
+  height: 60rem;
   border: 2px solid rgb(33, 35, 36);
   border-width: .1;
   display: flex;
@@ -223,6 +224,7 @@ color: rgb(198, 201, 204);
   box-shadow: 0 0em .8em 0 #314b7a;
   background: rgb(33, 35, 36);
   overflow: hidden;
+  padding-bottom: 7rem;
   /*padding: 2rem;
   line-height: 1rem;
   float: left; */
@@ -315,6 +317,7 @@ color: rgb(198, 201, 204);
   right: 2em;
   bottom: 2em;
   width: 31.9%;
+  height: 18.5rem;
 }
 
 
@@ -326,7 +329,7 @@ color: rgb(198, 201, 204);
   position: right;
   position: relative;
   margin-top: 0;
-  height: 39.5rem;
+  height: 41rem;
   /* border-top: 0; */
   width: 33;
   margin: 0;
@@ -453,7 +456,7 @@ footer {
 /*Responsive*
 ***************************************************/
 
- @media (max-width: 1270px) {
+ @media (max-width: 1470px) {
   .home {
  width: 100%;
  display: block;
@@ -509,6 +512,19 @@ footer {
 
  
 @media (max-width: 1580px) {  
+
+  .box {
+    height: 100%
+  }
+
+  #travel-box-sizing {
+    position: right;
+    position: relative;
+    right: 0rem;
+    bottom: 2rem;
+    width: 100%;
+    margin-top: 5.5rem;
+  }
   
   .spotify {
     display: block;
@@ -534,6 +550,15 @@ footer {
 
   .mini-titles {
     clear: both;
+  }
+
+  #photography-box-sizing {
+
+  }
+
+  #travel-box-sizing {
+    bottom: 3rem;
+    height: 25rem;
   }
 }
 
